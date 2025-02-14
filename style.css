@@ -3,3 +3,43 @@
 /* font-family: "Poppins", serif; 
    font-family: "Roboto", serif; 
 */
+/* Universal selector */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav-section{
+    border: 2px solid wheat;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 40px;
+    font-family: "Roboto", serif;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    background-color: #221144;
+    color: white;
+}
+.nav-section #careers{
+    margin-right: 50px;
+
+}
+.nav-section #name{
+    margin-right: 600px;
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    padding: 5px;
+    
+}
+.nav-section div{
+    margin-top: 20px;
+}
+.nav-section a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+}
