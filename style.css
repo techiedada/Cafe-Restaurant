@@ -9,6 +9,9 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    background-color: #FFFAFA;
+}
 .nav-section{
     border: 2px solid wheat;
     display: flex;
@@ -42,4 +45,61 @@
 }
 a:hover{
     color: orangered;
+}
+.main-section{
+    /* border: 2px solid wheat; */
+    width: 800px;
+    height: 450px;
+    /* margin-top: 100px; */
+    margin: 130px auto;
+}
+.coffee-info{
+    /* border: 2px solid wheat; */
+    padding: 5px;
+    width: 900px;
+    height: 390px;
+    margin: 2px auto;
+    border-radius: 5px;
+    background-color: #E9FFDB;
+    /* color: white; */
+
+}
+.coffee-info h2{
+    text-align: center;
+    padding: 10px;
+    font-family: "Roboto", serif;
+}
+.coffee-info #para{
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+
+}
+#foodpara{
+    /* border: 2px solid wheat; */
+    margin: 40px auto;
+    text-align: center;
+    padding: 15px;
+    font-family: "Roboto", serif;
+    background-color:#F8F4FF;
+}
+#foodpara #cfood{
+    font-size: 20px;
+    margin: 5px;
+    font-family: "Roboto", serif;
+    color: orangered;
+}
+.food-image{
+    /* border: 2px solid wheat; */
+    width: 1150px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color:#E9FFDB;
+}
+.food-image img{
+    margin: 3px;
+    margin-left: 5px;
+}
+.food-image img:hover{
+    transform: scale(1.5);
 }
