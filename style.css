@@ -56,14 +56,15 @@ a:hover{
     margin: 130px auto;
 }
 .coffee-info{
-    /* border: 2px solid wheat; */
+    border: 2px solid #0e382c;
     padding: 5px;
     width: 900px;
     height: 390px;
     margin: 2px auto;
     border-radius: 5px;
-    background-color: #E9FFDB;
-    /* color: white; */
+    /* background-color: #E9FFDB; */
+    background-color: #0e382c;
+    color: white;
 
 }
 .coffee-info h2{
@@ -89,14 +90,16 @@ a:hover{
     font-size: 20px;
     margin: 5px;
     font-family: "Roboto", serif;
-    color: orangered;
+    color: red;
 }
 .food-image{
     /* border: 2px solid wheat; */
-    width: 1150px;
+    width: 1147px;
     margin: 30px auto;
     padding: 30px;
-    background-color:#E9FFDB;
+    /* background-color:#E9FFDB; */
+    background-color: #0e382c;
+    border-radius: 2px;
 }
 .food-image img{
     margin: 3px;
@@ -145,7 +148,7 @@ a:hover{
 .footer-main #div4 i{
     font-size: 20px;
     margin: 2px;
-    color: rgb(132, 19, 238);
+    color: rgb(41, 19, 238);
 }
 .footer-main #div5{
     margin: 5px;
@@ -155,6 +158,7 @@ a:hover{
     height: 350px;
     text-align: center;
     background-color: #FFE4E1;
+    /* background-color:wheat */
 }
 .footer-main #div5 input{
     padding: 5px;
@@ -185,8 +189,11 @@ a:hover{
 }
 .footer-main #f-link{
     text-transform: uppercase;
-    color:orangered;
+    color:red;
     font-family: "Roboto", serif;
+}
+.footer-main a{
+    text-decoration: none;
 }
 #end-section{
     height: 20px;
