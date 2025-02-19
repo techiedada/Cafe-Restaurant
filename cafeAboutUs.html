@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe-Restaurant</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" href="resource/favicon-16x16.png" type="image/x-icon">
+    <!-- CDN Link of Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<style>
+    *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color:whitesmoke;
+        }
+        .nav-section{
+             /* border: 2px solid wheat; */
+             display: flex;
+             justify-content: flex-end;
+             padding: 10px;
+             gap: 40px;
+             font-family: "Roboto", serif;
+             width: 100%;
+             top: 0%;
+             position: fixed;
+             background-color:#221144;
+             z-index: 1000;
+        }
+        .nav-section #careers{
+             margin-right: 50px;
+
+        }
+        .nav-section #name{
+             margin-right: 600px;
+             font-size: 30px;
+             font-family: "Poppins", serif;
+             padding: 5px;
+    
+        }
+        .nav-section div{
+             margin-top: 20px;
+        }
+        .nav-section a{
+             /* color: white; */
+             text-decoration: none;
+        }
+        a:hover{
+             color: orangered;
+        }
+        .img-section{
+            margin-top: 70px;
+        }
+        .images{
+            /* border: 2px solid red; */
+            width: 1200px;
+            height: 310px;
+            margin: 60px auto;
+            display: flex;
+            justify-content: space-evenly;
+            /* background-color: whitesmoke; */
+
+        }
+        .images img{
+            padding: 2px;
+            border-radius: 5px;
+            /* margin: 2px; */
+        }
+
+        .main-section{
+            /* border: 2px solid red; */
+            width: 1200px;
+            height: 280px;
+            display: flex;
+            justify-content: space-between;
+            font-family: "Roboto", serif;
+            padding: 10px;
+            margin: 20px auto;
+        }
+        .main-section #name{
+            margin-left: 70px;
+            color: orangered;
+        }
+        .main-section p{
+            width: 400px;
+            border: 1px solid gray;
+            padding: 10px;
+            background-color: #0e382c;
+            color: white;
+            border-radius: 5px;
+
+        }
+        .img{
+            margin-top: 50px;
+        }
+        #end-section{
+            height: 20px;
+            padding: 10px 20px;
+            height: 50px;
+            background-color: #FFFAFA;
+            /* border: 2px solid red; */
+        }
+</style>
+</head>
+<body>
+    <!-- Navigation Section -->
+     <nav class="nav-section">
+        <p id="name">Cafe FullStack</p>
+        <div> <a href="index.html">Home</a></div>
+        <div> <a href="cafeAboutUs.html">About</a></div>
+        <div> <a href="">Food</a></div>
+        <div> <a href="cafeCollection.html">Collection</a></div>
+        <div id="careers"> <a href="cafeCareers.html">Careers</a></div>
+     </nav>
+     <!-- Main-Section -->
+      <section class="img-section">
+        <img src="resource/coffee-production-process.jpg" alt="coffee-process" width="100%" height="600px">
+      </section>
+      <section class="images">
+        <img src="resource/new image.jpg" alt="" width="290px" height="300px">
+        <img src="resource/coffee-beans-2258839_1280.jpg" alt="" width="290px" height="300px">
+        <img src="resource/machine-grinding-coffee-beans.jpg" alt="" width="290px" height="300px">
+        <img src="resource/tool-used-coffee-press-cup.jpg" alt="" width="290px" height="300px">
+      </section>
+      <section class="main-section">
+        <p>
+            <span id="name">OUR PROCESS</span> <br> <br>
+            Our core philosophy is to perfect every step in the life of the coffee bean, from seed to cup. We understand that the most important part of the coffee process is care. This sense of care extends not only to the taste of the perfect cup of coffee but also to the entire ecosystem that goes behind making it.
+        </p>
+        <p>
+            <span id="name">SELECTING BEANS</span> <br> <br>
+            The coffee bean is a complex character, a cultural phenomenon, a fascinating find. We spend a considerable amount of time (read: most of it) interacting closely with farmers to understand the coffee they produce. To us, it’s vital to source your coffee directly from farms, taking care to ensure that they are sustainably grown and ethically traded.
+        </p>
+        <p>
+            <span id="name">ROASTING</span> <br> <br>
+            Our carefully picked selections are roasted in a state-of-the-art in-house coffee roaster. We roast the beans in small batches with specific profiles to create optimal flavour notes and potent aromatics.
+        </p>
+        <p>
+            <span id="name">GRINDING </span><br> <br>
+            Our coffee is freshly ground, ensuring the retention of all of its delicious flavours. The grind size is customised according to the equipment you need.
+        </p>
+      </section>
+      <section class="img">
+        <img src="resource/21661.jpg" alt="" width="100%" height="1000px">
+      </section>
+      <!-- End-Section -->
+      <section id="end-section">
+        <span> @ Cafe FullStack Pune. All rights reserved.</span>
+     </section>
+</body>
+</html>
