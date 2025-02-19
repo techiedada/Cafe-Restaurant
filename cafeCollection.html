@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" href="resource/favicon-16x16.png" type="image/x-icon">
+    <!-- CDN Link of Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Google Font Family CDN Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- font-family: "Poppins", serif; -->
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .nav-section{
+             /* border: 2px solid wheat; */
+             display: flex;
+             justify-content: flex-end;
+             padding: 10px;
+             gap: 40px;
+             font-family: "Roboto", serif;
+             width: 100%;
+             top: 0%;
+             position: fixed;
+             /* background-color: #221144; */
+             background-color: rgb(238, 236, 236);
+             z-index: 1000;
+             color: black;
+        }
+        .nav-section #careers{
+             margin-right: 50px;
+
+        }
+        .nav-section #name{
+             margin-right: 600px;
+             font-size: 30px;
+             font-family: "Poppins", serif;
+             padding: 5px;
+    
+        }
+        .nav-section div{
+             margin-top: 20px;
+        }
+        .nav-section a{
+             color: black;
+             text-decoration: none;
+        }
+        a:hover{
+             color: orangered;
+        }
+        .Main-Section{
+            margin-top: 140px;
+            /* border: 2px solid gray; */
+            text-align: center;
+        }
+        .Main-Section #name{
+            font-size: 30px;
+            /* font-family: "Roboto", serif; */
+            font-family: var(--tg-heading-font-family);
+            font-weight: 400;
+        }
+        .Main-Section #text{
+            font-size: 20px;
+            font-family: "Poppins", serif;
+            font-weight: 300;
+        }
+        .Main-Section #para{
+            font-family: "Roboto", serif;
+        }
+        .Main-Section #para #button{
+            margin: 40px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: rgb(26, 24, 24);
+            color: white;
+            font-family: "Roboto", serif;
+        }
+        .collection{
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .footer-main{
+        /* border: 2px solid gray; */
+            width: 100%;
+            height: 360px;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            font-family: "Poppins", serif;
+            font-size: 13.5px;
+            background-color: whitesmoke;
+            background-color:rgb(238, 236, 236);
+            color: black;
+        }
+        .footer-main #div1{
+            margin-top: 80px;
+            margin-left: 30px;
+        }
+        .footer-main #div1 p{
+            margin:5px;
+        }
+        .footer-main #div1 a{
+            text-decoration: none;
+        }
+        .footer-main #div2{
+            margin-top: 40px;
+        }
+        .footer-main #div2 p{
+            margin: 5px;
+        }
+        .footer-main #div3{
+            margin-top: 40px;
+        }
+        .footer-main #div3 p{
+            margin: 10px;
+    
+        }
+        .footer-main #div4{
+            margin-top: 40px;
+        }
+        .footer-main #div4 p{
+            margin: 5px;
+        }
+        .footer-main #div4 i{
+            font-size: 20px;
+            margin: 2px;
+            color: rgb(0, 60, 255);
+        }
+        .footer-main #f-link{
+            text-transform: uppercase;
+            color: red;
+        }
+        #end-section{
+            height: 20px;
+            padding: 10px 20px;
+            height: 50px;
+            background-color: #FFFAFA;
+            /* border: 2px solid red; */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="nav-section">
+        <p id="name">Cafe FullStack</p>
+        <div> <a href="index.html">Home</a></div>
+        <div> <a href="cafeAboutUs.html">About</a></div>
+        <div> <a href="">Food</a></div>
+        <div> <a href="cafeCollection.html">Collection</a></div>
+        <div id="careers"> <a href="cafeCareers.html">Careers</a></div>
+    </nav>
+    <!-- Main-Section -->
+     <section class="Main-Section">
+        <span id="name"> FULLSTACK COLLECTION SHOP</span> <br> <br>
+        <span id="text">VISIT THE POPULAR BOUTIQUE FOR FASHION JEWELRY, CLOTHES, ACCESSORIES & HOME <br> DÉCOR</span> <br> <br>
+        <p id="para">
+            FullStack Collection shop is one of the favorite boutiques in Pune, known for a large selection of fashion jewellery, clothes, <br> accessories and gorgeous home decor. Inspired by the beauty of India and created with love in Pune, its fashion is translated into a <br>
+             global fusion design, making it easy to enjoy feminine and bohemian beauty for everyone. <br>
+            <br>
+            Shop your full vacation wardrobe with us: breezy kaftans and beach shrugs in light cotton fabrics, gorgeous long dresses for a <br>
+            romantic dinner, colorful holiday shorts in cool linen and a wide variety of lovely tops for any occasion. <br>
+            <br>
+            You will also find a beautiful collection of home decor items, gifts & souvenirs from Pune. Our jewelry is loved worldwide for its <br>
+            boho charm and effortless elegance. All our items are unique and handcrafted. <br>
+            <br>
+            At FullStack Collection we believe that expressing individual style and being connected with your unique and personal beauty is a <br>
+            priceless gift. <br> <br> 
+            <button id="button">SHOP NOW</button>
+        </p>
+     </section>
+     <section class="collection">
+        <img src="resource/collection 1.jpg" alt="" width="250px" height="250">
+        <img src="resource/collection 2.jpg" alt="" width="250px" height="250">
+        <img src="resource/collection 3.jpg" alt="" width="250px" height="250">
+        <img src="resource/collection 5.jpg" alt="" width="250px" height="250">
+        <img src="resource/collection 4.jpg" alt="" width="250px" height="250">
+     </section>
+     <!-- Footer Section -->
+      <section class="footer-main">
+        <div id="div1">
+            <p id="f-link">Quick Links</p> 
+            <p><a href="index.html">Home</a></p>
+            <p><a href="cafeAboutUs.html">About</a></p>
+            <p>Food</p>
+            <p> <a href="cafeCollection.html">Collection</a></p>
+            <p>Privacy Policy</p>
+            <p>FAQs</p>
+            <p> <a href="cafeCareers.html">Careers</a></p>
+         </div>
+         <div id="div2">
+            <p id="f-link">Business</p>
+            <p>Lease Enquiry</p>
+            <p>Advertise With Us</p>
+            <p>Coffee Vending Machine</p>
+            <p>Outdoor Catering Service</p>
+            <p>Delivery</p>
+            <p>Customer Service</p>
+            <p>Contact Us</p>
+         </div>
+         <div id="div3">
+            <p id="f-link">Contact Us</p>
+            <p>Address: WAKAD, PUNE. <br> 
+               Email: mahangaredattatray@gmail.com <br>
+               Mobile No: +91 7350833682
+            </p>
+            <p>Web Accessibility</p>
+            <p>Terms of Use</p>
+         </div>
+         <div id="div4">
+            <p id="f-link">Social Media</p> <br>
+            <p>
+               <span> <a href="https://www.instagram.com/" target="_blank" ><i class="bi bi-instagram"></i></a></span>
+               <span> <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></span>
+               <!-- <span><i class="bi bi-youtube"></i></span> -->
+               <span> <a href="https://www.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a></span>
+               <span><a href="https://in.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a></span>
+            </p>
+         </div>
+      </section>
+      <!-- End-Section -->
+      <section id="end-section">
+           <span> @ Cafe FullStack Pune. All rights reserved.</span>
+      </section>
+</body>
+</html>
