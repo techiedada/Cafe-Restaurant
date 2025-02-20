@@ -65,7 +65,7 @@ a:hover{
     /* background-color: #E9FFDB; */
     background-color: #0e382c;
     color: white;
-
+    /* box-shadow: 5px 5px 5px 5px #262c2a; */
 }
 .coffee-info h2{
     text-align: center;
